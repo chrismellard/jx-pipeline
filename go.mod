@@ -1,4 +1,4 @@
-module github.com/jenkins-x/jx-pipeline
+module github.com/chrismellard/jx-pipeline
 
 require (
 	github.com/cenkalti/backoff v2.2.1+incompatible
