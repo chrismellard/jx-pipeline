@@ -1,20 +1,20 @@
 package cmd
 
 import (
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/activities"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/fmt"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/get"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/getlog"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/importcmd"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/lint"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/pod"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/start"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/stop"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/version"
+	"github.com/chrismellard/jx-pipeline/pkg/cmd/wait"
+	"github.com/chrismellard/jx-pipeline/pkg/rootcmd"
 	"github.com/jenkins-x/jx-helpers/v3/pkg/cobras"
 	"github.com/jenkins-x/jx-logging/v3/pkg/log"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/activities"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/fmt"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/get"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/getlog"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/importcmd"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/lint"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/pod"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/start"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/stop"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/version"
-	"github.com/jenkins-x/jx-pipeline/pkg/cmd/wait"
-	"github.com/jenkins-x/jx-pipeline/pkg/rootcmd"
 	"github.com/spf13/cobra"
 )
 
